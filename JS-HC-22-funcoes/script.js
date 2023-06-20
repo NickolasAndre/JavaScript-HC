@@ -1,27 +1,35 @@
+function primeiraFuncao(/*inserir argumentos*/){
 
-for(var i = 10; i >= 0; i--){
-    console.log(i);
-
-    if(i ===5){
-        break;
-    }
+console.log('Hello World das funções')
 
 }
 
-console.log('Deu o break');
+primeiraFuncao();
 
+function dizerNome(nome){
 
-var x = 10;
-
-while(x < 100){
-
-    x += 10;
-
-    if(x === 60 || x === 90){
-        console.log('CONTINUE');
-        continue;
-    }
-
-    console.log('testando continue ' + x)
+    console.log('o nome é: ' + nome);
 
 }
+
+dizerNome('Nickolas');
+dizerNome('Andre');
+
+var nomeDoBancoDeDados = 'Andreee'
+
+dizerNome(nomeDoBancoDeDados);
+
+function soma(a,b){
+    var soma = a + b;
+    return soma;
+}
+
+var somaUm = soma(4,2);
+
+console.log(somaUm);
+
+var somaDois = soma(2,3);
+
+console.log(somaDois);
+
+console.log(soma(4,6))
