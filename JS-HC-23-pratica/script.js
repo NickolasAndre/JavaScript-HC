@@ -27,6 +27,6 @@ for(var i = 0; i < lista.length; i++){
     var textoLi = document.createTextNode(lista[i])
 
     liFor.appendChild(textoLi);
-
+ 
     listaNoBody[0].appendChild(liFor);
 }
