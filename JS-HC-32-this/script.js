@@ -26,15 +26,15 @@ let pessoa = {
     }
 };
 pessoa.dizerNome();
-
+ 
 console.log(pessoa.idade);
-
+ 
 pessoa.aniversario();
-
+ 
 console.log(pessoa.idade);
-
+ 
 pessoa.saudacao();
-
+ 
 console.log(pessoa.saudacao())
 
 var sdc = pessoa.saudacao();
